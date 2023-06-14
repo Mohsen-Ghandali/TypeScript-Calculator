@@ -1,6 +1,6 @@
 "use strict";
 const x = parseFloat(prompt("Please enter a number"));
-const op = prompt("Please enter + or - or / or ^");
+const op = prompt("Please enter + or - or / or * or ^");
 const y = parseFloat(prompt("Please enter a number"));
 function calculator(x, op, y) {
     switch (op) {

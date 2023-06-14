@@ -1,5 +1,5 @@
 const x: number = parseFloat(prompt("Please enter a number")!);
-const op: string = prompt("Please enter + or - or / or ^")!;
+const op: string = prompt("Please enter + or - or / or * or ^")!;
 const y: number = parseFloat(prompt("Please enter a number")!);
 
 function calculator(x: number, op: string, y: number): void {
